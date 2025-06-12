@@ -13,8 +13,8 @@ class Solution(object):
         result = 0 
         n = len(nums)
         for i in range(n):
-        	diff = abs(nums[i]-nums[(i+1)%n])
-        	result = max(result,diff)
+            diff = abs(nums[i]-nums[(i+1)%n])
+            result = max(result,diff)
         return result
 
             
