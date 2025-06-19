@@ -36,16 +36,4 @@ sol= Solution()
 strs = ["flower","flow","flight"]
 result = sol.longestCommonPrefix(strs)
 
-print(result)      
-
-
-
-
-
-
-
-sol= Solution()
-strs = ["flower","flow","flight"]
-result = sol.longestCommonPrefix(strs)
-
 print(result)
